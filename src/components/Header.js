@@ -5,18 +5,16 @@ import { NavLink } from 'react-router-dom';
 const Header = () => {
   return (
     <React.Fragment>
-      <h1>Hackathon</h1>
+      <h1>Tech News</h1>
       <div className="nav-link m-2">
         <NavLink to="/top"  activeClassName="active">
-          <button style={{fontSize:15}}>Top Stories</button>
+         Top Stories
         </NavLink>&nbsp;
         <NavLink to="/new" activeClassName="active">
-          <button style={{fontSize:15}}>Latest Stories
-            </button>
+         Latest Stories
         </NavLink>&nbsp;
         <NavLink to="/best" activeClassName="active">
-          <button style={{fontSize:15}}>Best Stories
-            </button>
+         Best Stories
         </NavLink>
       </div>
     </React.Fragment>
